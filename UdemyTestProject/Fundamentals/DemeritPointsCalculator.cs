@@ -1,0 +1,24 @@
+﻿using System;
+
+namespace UdemyTestProject.Fundamentals
+{
+    public class DemeritPointsCalculator
+    {
+        private const int SpeedLimit = 65;
+        private const int MaxLimit = 300;
+
+        public int CalculateDemeritPoints(int speed)
+        {
+            if(speed < 0 || speed > MaxLimit)
+                throw new ArgumentOutOfRangeException();
+
+            if (speed <= SpeedLimit)
+                return 0;
+
+            const int kmPerDemeritPoint = 5;
+            var demeritPoints = (speed - SpeedLimit) / kmPerDemeritPoint;
+
+            return demeritPoints;
+        }
+    }
+}

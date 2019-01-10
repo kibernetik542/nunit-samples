@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Takeda.Web", "UdemyTestProject\Takeda.Web.csproj", "{1BD8BA2E-B072-4B93-9612-9239DC2D0817}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TakedaMedicalCMS.Tests", "UdemyTestProject.UnitTests\TakedaMedicalCMS.Tests.csproj", "{37C6B39D-2FC0-4319-972D-41E7DE2B2EF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BD8BA2E-B072-4B93-9612-9239DC2D0817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BD8BA2E-B072-4B93-9612-9239DC2D0817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BD8BA2E-B072-4B93-9612-9239DC2D0817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BD8BA2E-B072-4B93-9612-9239DC2D0817}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37C6B39D-2FC0-4319-972D-41E7DE2B2EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37C6B39D-2FC0-4319-972D-41E7DE2B2EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37C6B39D-2FC0-4319-972D-41E7DE2B2EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37C6B39D-2FC0-4319-972D-41E7DE2B2EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84F10046-85CC-4E4F-83C7-0DF8B486905F}
+	EndGlobalSection
+EndGlobal
